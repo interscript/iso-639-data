@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "iso/639/data"
+require "iso-639-data"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
