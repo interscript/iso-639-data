@@ -35,7 +35,7 @@ ISO_639_DATA.codes
 
 To check if a given alpha-3 code is valid
 ```ruby
-ISO_639_DATA.validate?("kor") # => true
+ISO_639_DATA.valid?("kor") # => true
 ```
 
 ## Development

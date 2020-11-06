@@ -19,7 +19,7 @@ RSpec.describe ISO_639_DATA do
   end
 
   it "validate code" do
-    expect(ISO_639_DATA.validate?("aar")).to be true
-    expect(ISO_639_DATA.validate?("***")).to be false
+    expect(ISO_639_DATA.valid?("aar")).to be true
+    expect(ISO_639_DATA.valid?("***")).to be false
   end
 end
