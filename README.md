@@ -1,8 +1,9 @@
-# Iso::639::Data
+# ISO 639 Data
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/iso/639/data`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A Ruby gem that provides the ISO 639-3, ISO 639-2 and ISO 639-1 data sets along with some
+convenience methods for accessing different entries and entry fields. The data
+comes from the
+[ISO 639-X UTF-8 data set](https://github.com/metanorma/iso-639-codes).
 
 ## Installation
 
@@ -22,8 +23,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
 
+```ruby
+require 'iso-639-data'
+```
+
+To get list of codes of unified ISO 639-X
+```ruby
+ISO_639_DATA.codes
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
