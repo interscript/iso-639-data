@@ -1,3 +1,3 @@
-module ISO_639_DATA
+module Iso639Data
   VERSION = "0.1.2"
 end

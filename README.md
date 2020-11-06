@@ -30,12 +30,12 @@ require 'iso-639-data'
 
 To get list of codes of unified ISO 639-X
 ```ruby
-ISO_639_DATA.codes
+Iso639Data.codes
 ```
 
 To check if a given alpha-3 code is valid
 ```ruby
-ISO_639_DATA.valid?("kor") # => true
+Iso639Data.valid?("kor") # => true
 ```
 
 ## Development

@@ -2,7 +2,7 @@ require_relative 'lib/iso-639-data/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "iso-639-data"
-  spec.version       = ISO_639_DATA::VERSION
+  spec.version       = Iso639Data::VERSION
   spec.authors       = ["webdev778"]
   spec.email         = ["webdev778@gmail.com"]
 

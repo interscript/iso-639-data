@@ -1,7 +1,7 @@
 require "iso-639-data/version"
 require "yaml"
 
-module ISO_639_DATA
+module Iso639Data
   class Error < StandardError; end
 
   ISO_639_2 = lambda do
