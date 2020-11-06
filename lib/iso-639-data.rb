@@ -24,9 +24,15 @@ module ISO_639_DATA
     def codes
       (ISO_639_2.keys << ISO_639_3.keys).flatten.uniq
     end
+
+    def validate?(code)
+      codes.include? code
+    end
+
     def iso_639_2
       ISO_639_2
     end
+
     def iso_639_3
       ISO_639_3
     end

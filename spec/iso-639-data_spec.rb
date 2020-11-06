@@ -17,4 +17,9 @@ RSpec.describe ISO_639_DATA do
     expect { ISO_639_DATA.iso_639_3["aaa"] = {"Part2B": "custom"} }.to raise_error(FrozenError)
     expect { ISO_639_DATA.iso_639_3["aaa"]["Ref_Name"] = "custom" }.to raise_error(FrozenError)
   end
+
+  it "validate code" do
+    expect(ISO_639_DATA.validate?("aar")).to be true
+    expect(ISO_639_DATA.validate?("***")).to be false
+  end
 end
