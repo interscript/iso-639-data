@@ -3,17 +3,17 @@ require_relative 'lib/iso-639-data/version'
 Gem::Specification.new do |spec|
   spec.name          = "iso-639-data"
   spec.version       = Iso639Data::VERSION
-  spec.authors       = ["webdev778"]
-  spec.email         = ["webdev778@gmail.com"]
+  spec.authors       = ["Ribose Inc."]
+  spec.email         = ["open.source@ribose.com"]
 
   spec.summary       = %q{ISO 639-X language code entries.}
   spec.description   = %q{ISO 639-X language code entries.}
-  spec.homepage      = "https://github.com/webdev778/iso-639-data"
+  spec.homepage      = "https://github.com/interscript/iso-639-data"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/webdev778/iso-639-data"
+  spec.metadata["source_code_uri"] = "https://github.com/interscript/iso-639-data"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
